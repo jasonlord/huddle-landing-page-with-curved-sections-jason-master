@@ -1,1 +1,327 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+}
+
+img.logo {
+  width: 96px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+input {
+  outline: none;
+  border: 0;
+  font-size: 1.33rem;
+  text-indent: 1rem;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+button.tryFree {
+  border-radius: 20px;
+  border: 1px solid #ff52bf;
+  color: #ff52bf;
+  padding: 0.5rem 1rem;
+  font-size: 0.5rem;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(125, 99, 121, 0.13);
+          box-shadow: 0px 3px 3px 0px rgba(125, 99, 121, 0.13);
+  cursor: pointer;
+}
+
+button.getStarted {
+  background-color: #ff52bf;
+  border-radius: 100px;
+  padding: 0.75rem 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+strong {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+}
+
+.growTogetherImage {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+#patternFlowing00,
+#patternFlowing01,
+#patternFlowing02 {
+  width: 100%;
+}
+
+footer {
+  color: white;
+  background-color: #00252e;
+  -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.32);
+          box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.32);
+}
+
+footer .newsletterSignup button {
+  background-color: #ff52bf;
+  border: 0;
+  color: white;
+  border-radius: 6px;
+  padding: 0.85rem 2.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+}
+
+footer address .phoneContact {
+  text-indent: 3rem;
+  background-image: url("/images/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 8px 0px;
+}
+
+footer address .emailContact {
+  text-indent: 3rem;
+  background-image: url("/images/icon-email.svg");
+  background-repeat: no-repeat;
+  background-position: 8px 0px;
+}
+
+footer ul.socialMediaIcons {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer .socialMediaIcon {
+  width: 44px;
+  height: 44px;
+  float: left;
+}
+
+footer ion-icon {
+  font-size: 1.6rem;
+}
+
+header {
+  margin-top: 0.5rem;
+}
+
+header img {
+  margin: 1.2rem 0 1rem 1rem;
+}
+
+header button {
+  float: right;
+  margin: 0.8rem 0 1rem 1rem;
+}
+
+section.callToActionOne {
+  margin-top: 6.25rem;
+  background-image: url(/images/bg-section-top-mobile-1.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 8.25rem;
+}
+
+section.callToActionOne p {
+  text-align: center;
+  margin: 1.5rem 2rem;
+  font-size: 0.8rem;
+  line-height: 1.35rem;
+}
+
+section.callToActionOne button.getStarted {
+  margin: 3rem auto 6.25rem auto;
+  display: block;
+}
+
+section.callToActionOne img.abstractScreens {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+section.callToActionOne div.communitiesFormed {
+  background-image: url(/images/icon-communities.svg);
+  background-repeat: no-repeat;
+  padding: 2rem 2rem;
+  margin: 6.5rem 0 0 0;
+}
+
+section.callToActionOne div.communitiesFormed p {
+  margin-top: 0.5rem;
+}
+
+section.callToActionOne div.messagesSent {
+  margin: 3rem 0 0rem 0;
+  background-image: url(/images/icon-messages.svg);
+  background-repeat: no-repeat;
+}
+
+section.callToActionOne div.messagesSent p {
+  margin: 0.2rem 0 0 0;
+}
+
+section.features {
+  margin-top: 1rem h2;
+  margin-top-text-align: center;
+}
+
+section.features p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+}
+
+section.features h2 {
+  text-align: center;
+}
+
+section.features #growTogetherFeature {
+  background-color: #f6fbff;
+  background-image: url("/images/bg-section-bottom-mobile-1.svg");
+  background-position: bottom;
+  padding-top: 7.75rem;
+  padding-bottom: 2rem;
+}
+
+section.features #growTogetherFeature img {
+  position: relative;
+  top: -50px;
+}
+
+section.features #flowingConversationsFeature {
+  padding-top: 26.5rem;
+  background-image: url("/images/illustration-flowing-conversation.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center 145px;
+}
+
+section.features #yourUsersFeature {
+  padding-top: 18rem;
+  margin-top: -5px;
+  background-color: #f6fbff;
+  background-image: url("/images/illustration-your-users.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center 20px;
+  padding-bottom: 7rem;
+}
+
+section.features #patternFlowing {
+  margin-top: 7rem;
+  margin-bottom: 0;
+  position: relative;
+  top: 4px;
+}
+
+section.callToActionTwo {
+  padding-bottom: 16rem;
+}
+
+section.callToActionTwo h1 {
+  margin-top: 4.25rem;
+}
+
+section.callToActionTwo button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 2.25rem;
+}
+
+img#footerPattern {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+footer {
+  margin-top: 0;
+  padding-top: 1px;
+  position: relative;
+  top: -5px;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 3.75rem;
+  letter-spacing: 0.05rem;
+}
+
+footer p {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+footer .newsletterSignup {
+  margin: 0 2rem;
+}
+
+footer .newsletterSignup input {
+  width: 100%;
+  border-radius: 8px;
+  line-height: 3rem;
+  margin-top: 0.5rem;
+}
+
+footer .newsletterSignup button {
+  margin-top: 1rem;
+  float: right;
+}
+
+footer address {
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  margin: 10rem 1.5rem 0 1.5rem;
+  font-size: 0.85rem;
+}
+
+footer address .logoFooter {
+  width: 65%;
+  margin-top: 0.5rem;
+}
+
+footer address .phoneContact {
+  margin-top: 2.5rem;
+}
+
+footer address .emailContact {
+  margin-top: 1.25rem;
+}
+
+footer address .socialMediaIcons li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */

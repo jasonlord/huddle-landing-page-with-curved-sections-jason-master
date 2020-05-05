@@ -1,0 +1,169 @@
+header {
+    margin-top: 0.5rem;
+    img {
+        margin: 1.2rem 0 1rem 1rem;
+    }
+    button {
+        float: right;
+        margin: 0.8rem 0 1rem 1rem;
+    }
+}
+
+section.callToActionOne {
+    margin-top: 6.25rem;
+    background-image: url(/images/bg-section-top-mobile-1.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 8.25rem;
+    p {
+        text-align: center;
+        margin: 1.5rem 2rem;
+        font-size: 0.8rem;
+        line-height: 1.35rem;
+    }
+    button.getStarted {
+        margin: 3rem auto 6.25rem auto;
+        display: block;
+    }
+    img.abstractScreens {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    div.communitiesFormed {
+        background-image: url(/images/icon-communities.svg);
+        background-repeat: no-repeat;
+        padding: 2rem 2rem;
+        margin: 6.5rem 0 0 0;
+        p {
+            margin-top: 0.5rem;
+        }
+    }
+    div.messagesSent {
+        margin: 3rem 0 0rem 0;
+        background-image: url(/images/icon-messages.svg);
+        background-repeat: no-repeat;
+        p {
+            margin: 0.2rem 0 0 0;
+        }
+    }
+}
+
+section.features {
+    margin-top: 1rem h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+    h2 {
+        text-align: center;
+    }
+    #growTogetherFeature {
+        background-color: #f6fbff;
+        background-image: url("/images/bg-section-bottom-mobile-1.svg");
+        background-position: bottom;
+        padding-top: 7.75rem;
+        padding-bottom: 2rem;
+        img {
+            position: relative;
+            top: -50px;
+        }
+    }
+    #flowingConversationsFeature {
+        padding-top: 26.5rem;
+        background-image: url("/images/illustration-flowing-conversation.svg");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        background-position: center 145px;
+    }
+    #yourUsersFeature {
+        padding-top: 18rem;
+        margin-top: -5px;
+        background-color: #f6fbff;
+        background-image: url("/images/illustration-your-users.svg");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center 20px;
+        padding-bottom: 7rem;
+    }
+    #patternFlowing {
+        margin-top: 7rem;
+        margin-bottom: 0;
+        position: relative;
+        top: 4px;
+    }
+}
+
+section.callToActionTwo {
+    h1 {
+        margin-top: 4.25rem;
+    }
+    button {
+        margin: 0 auto;
+        display: block;
+        margin-top: 2.25rem;
+    }
+    padding-bottom: 16rem;
+}
+
+img#footerPattern {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 1px;
+    position: relative;
+    top: -5px;
+    h3 {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 3.75rem;
+        letter-spacing: 0.05rem;
+    }
+    p {
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+    }
+    .newsletterSignup {
+        margin: 0 2rem;
+        input {
+            width: 100%;
+            border-radius: 8px;
+            line-height: 3rem;
+            margin-top: 0.5rem;
+        }
+        button {
+            margin-top: 1rem;
+            float: right;
+        }
+    }
+    address {
+        font-style: normal;
+        font-family: $myBodyFont;
+        margin: 10rem 1.5rem 0 1.5rem;
+        font-size: 0.85rem;
+        .logoFooter {
+            width: 65%;
+            margin-top: 0.5rem;
+        }
+        .phoneContact {
+            margin-top: 2.5rem;
+        }
+        .emailContact {
+            margin-top: 1.25rem;
+        }
+        .socialMediaIcons li {
+            list-style-type: none;
+        }
+    }
+}

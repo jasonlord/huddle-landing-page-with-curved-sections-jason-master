@@ -7,6 +7,7 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/scss/style.css">
 
@@ -28,7 +29,7 @@
 <body>
 
     <header>
-        <img class="logo"></img>
+        <img alt="Huddle Logo" src="/images/logo.svg" class="logo"></img>
         <button class="tryFree">Try It Free</button>
     </header>
     <section class="callToActionOne">
@@ -51,58 +52,64 @@
         </div>
 
     </section>
-
     <section class="features">
-        <div class="feature">
+        <div class="feature" id="growTogetherFeature">
+            <img id="patternFlowing00" src="/images/illustration-grow-together.svg" alt="Man and Woman with UI in background, Vector Image" class="growTogetherImage">
+
             <h2>Grow Together</h2>
             <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
         </div>
-        <div class="feature">
+        <img id="patternFlowing00" src="/images/bg-section-bottom-mobile-1.svg" alt="decorative pattern" />
+        <div class="feature" id="flowingConversationsFeature">
             <h2>Flowing Conversations</h2>
             <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
         </div>
-        <div class="feature">
+        <img id="patternFlowing01" src="/images/bg-section-top-mobile-2.svg" alt="">
+        <div class="feature" id="yourUsersFeature">
             <h2>Your Users</h2>
             <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
         </div>
+        <img id="patternFlowing02" src="/images/bg-section-bottom-mobile-2.svg" alt="">
+
     </section>
 
-    <section class="callToActionTwo">
+    <section class="callToActionTwo ">
         <h1>Ready To Build Your Community?</h1>
-        <button class="getStarted">Get Started For Free</button>
+        <button class="getStarted ">Get Started For Free</button>
+
 
     </section>
+    <img id="footerPattern" src="/images/bg-footer-top-mobile.svg" alt="">
 
     <footer>
-        <div class="newsletterSignup">
+        <div class="newsletterSignup ">
             <h3>Newsletter</h3>
-            <p>To recieve tips on how to grow your community, sign up to our weekly newsletter.</p>
+            <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address Subscribe</p>
 
-            <input type="text" class="newsletterSignupInput" />
-            <button class="subscribeButton"></button>
+            <input type="text " class="newsletterSignupInput " />
+            <button class="subscribeButton ">Subscribe</button>
         </div>
 
         <address>
-            <img src="/images/logo.svg" alt="" class="logoFooter">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius voluptatum obcaecati sint, ullam tenetur commodi, fugit quibusdam, recusandae quae ipsum! Iure et eius, non nemo excepturi rem aspernatur blanditiis.</p>
+            <img src="/images/logo-white.svg " alt=" " class="logoFooter ">
+            <p>Lorem ipsum dolor re et eius, non nemo excepturi rem a si! Iure et eius, non nemo excepturi rem aspernatur blanditiis.</p>
 
-            <div class="phoneContact">Phone: +1-57312304567</div>
-            <div class="emailContact">example@company.com</div>
-            <ul class="socialMediaIcons">
-                <li class="socialMediaIcon" id="facebook"></li>
-                <li class="socialMediaIcon" id="instagram"></li>
-                <li class="socialMediaIcon" id="twitter"></li>
+            <div class="phoneContact ">Phone: +1-57312304567</div>
+            <div class="emailContact ">example@company.com</div>
+            <ul class="socialMediaIcons ">
+                <li class="socialMediaIcon" id="facebook "><ion-icon name="logo-facebook"></ion-icon></li>
+                <li class="socialMediaIcon" id="instagram "><ion-icon name="logo-instagram"></ion-icon></li>
+                <li class="socialMediaIcon" id="twitter "><ion-icon name="logo-twitter"></ion-icon></li>
             </ul>
           </address>
     </footer>
 
-    We’ll never send you spam or pass on your email address Subscribe
 
-    <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
-        </p>
-    </footer>
+    <p class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">Your Name Here</a>.
+    </p>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 </body>
 
 </html>
