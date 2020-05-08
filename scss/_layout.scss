@@ -11,11 +11,7 @@ header {
 
 section.callToActionOne {
     margin-top: 6.25rem;
-    background-image: url(/images/bg-section-top-mobile-1.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 8.25rem;
+    padding-bottom: 2.25rem;
     p {
         text-align: center;
         margin: 1.5rem 2rem;
@@ -31,17 +27,20 @@ section.callToActionOne {
         display: block;
         margin: 0 auto;
     }
+    div {
+        padding: 2rem 2rem;
+        max-width: 250px;
+    }
     div.communitiesFormed {
         background-image: url(/images/icon-communities.svg);
         background-repeat: no-repeat;
-        padding: 2rem 2rem;
-        margin: 6.5rem 0 0 0;
+        margin: 8.5rem auto 0 auto;
         p {
             margin-top: 0.5rem;
         }
     }
     div.messagesSent {
-        margin: 3rem 0 0rem 0;
+        margin: 1rem auto 0rem auto;
         background-image: url(/images/icon-messages.svg);
         background-repeat: no-repeat;
         p {
@@ -51,7 +50,8 @@ section.callToActionOne {
 }
 
 section.features {
-    margin-top: 1rem h2 {
+    margin-top: -5px;
+    h2 {
         text-align: center;
     }
     p {
@@ -66,32 +66,31 @@ section.features {
     }
     #growTogetherFeature {
         background-color: #f6fbff;
-        background-image: url("/images/bg-section-bottom-mobile-1.svg");
-        background-position: bottom;
-        padding-top: 7.75rem;
-        padding-bottom: 2rem;
-        img {
-            position: relative;
-            top: -50px;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        h2 {
+            margin-top: 4.5rem;
         }
     }
     #flowingConversationsFeature {
-        padding-top: 26.5rem;
-        background-image: url("/images/illustration-flowing-conversation.svg");
-        background-size: 80%;
-        background-repeat: no-repeat;
+        img {
+            margin-top: 6rem;
+        }
+        h2 {
+            margin-top: 5.25rem;
+        }
+        padding-top: 3rem;
         margin: 0 auto;
-        background-position: center 145px;
+        padding-bottom: 7.5rem;
     }
     #yourUsersFeature {
-        padding-top: 18rem;
+        padding-top: 1.5rem;
         margin-top: -5px;
         background-color: #f6fbff;
-        background-image: url("/images/illustration-your-users.svg");
-        background-repeat: no-repeat;
-        background-size: 80%;
-        background-position: center 20px;
         padding-bottom: 7rem;
+        h2 {
+            margin-top: 5rem;
+        }
     }
     #patternFlowing {
         margin-top: 7rem;
